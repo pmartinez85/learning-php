@@ -1,6 +1,6 @@
 <?php
 
-//$gretting =  "Hola mon mundial!";
+
 //
 //echo $gretting;
 
@@ -8,6 +8,8 @@
 //
 //echo 'Hola ${name} a tots!';
 
+$gretting =  "Hola ";
+
 $name = 'Pedro';
 
-echo 'Hola' .$name. 'a tots!';
+echo $gretting  .$name. '!';
