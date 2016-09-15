@@ -10,8 +10,9 @@
 <body>
     <h1>
         <?php
-            $greeting = "Hola món";
-            echo $greeting;
+            $greeting = "Hola ";
+            $name = $_GET['nom'];
+            echo $greeting . $name .'!';
         ?>
     </h1>
 </body>
