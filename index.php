@@ -4,6 +4,10 @@
 //
 //echo $gretting;
 
-$name = "Pedro";
+//$name = 'Pedro';
+//
+//echo 'Hola ${name} a tots!';
 
-echo "Hola $name!";
+$name = 'Pedro';
+
+echo 'Hola' .$name. 'a tots!';
