@@ -9,11 +9,12 @@
 </head>
 <body>
     <h1>
-        <?php
-            $greeting = "Hola ";
-            $name = $_GET['nom'];
-            echo $greeting . $name .'!';
-        ?>
+<!--        --><?php
+//            $greeting = "Hola ";
+//            $name = $_GET['nom'];
+//            echo $greeting . $name .'!';
+//        ?>
+            <?= 'Hello ' . htmlspecialchars($_GET['nom']);?>
     </h1>
 </body>
 </html>
