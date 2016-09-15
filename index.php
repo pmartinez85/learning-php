@@ -1,5 +1,9 @@
 <?php
 
-$gretting =  "Hola mon!";
+//$gretting =  "Hola mon mundial!";
+//
+//echo $gretting;
 
-echo $gretting;
+$name = "Pedro";
+
+echo "Hola $name!";
