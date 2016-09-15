@@ -14,7 +14,8 @@
 //            $name = $_GET['nom'];
 //            echo $greeting . $name .'!';
 //        ?>
-            <?= 'Hello ' . htmlspecialchars($_GET['nom']);?>
+<!--            --><?//= 'Hello ' . htmlspecialchars($_GET['nom']);?>
+        <?= $gretting;?>
     </h1>
 </body>
 </html>
