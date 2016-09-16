@@ -15,10 +15,12 @@ $noms = [
 
 $array = ['Sergi', 'Xavi', 'Pedro'];   //Intentarem no fer aquest format si es un array llarg
 
-echo "<ul>";
-foreach ($noms as $x){
+require 'index.template.php';
 
-    echo "<li>$x</li</li>";
-
-}
-echo "</ul>";
+//echo "<ul>";
+//foreach ($noms as $x){
+//
+//    echo "<li>$x</li</li>";
+//
+//}
+//echo "</ul>";

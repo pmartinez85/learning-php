@@ -9,13 +9,15 @@
 </head>
 <body>
     <h1>
-<!--        --><?php
-//            $greeting = "Hola ";
-//            $name = $_GET['nom'];
-//            echo $greeting . $name .'!';
-//        ?>
-<!--            --><?//= 'Hello ' . htmlspecialchars($_GET['nom']);?>
-        <?= $gretting;?>
+        <ul>
+        <?php
+
+        foreach ($noms as $x){
+            echo "<li>$x</li</li>";
+        }
+        ?>
+        </ul>
+
     </h1>
 </body>
 </html>
