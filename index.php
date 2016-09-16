@@ -2,12 +2,10 @@
 
 copy('a', 'b');
 
-function hello(){
-    echo "Hello World";
+function hello($name, $sn1){
+    echo "Hello " . $name . " " . $sn1 . "!";
 
 }
-
-hello();
 
 
 

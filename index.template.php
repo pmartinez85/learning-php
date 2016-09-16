@@ -12,7 +12,7 @@
 
         <ul>
 
-            <li><?= hello(); ?>
+            <li><?= hello('Pedro' , 'Martínez'); ?>
 
 
 
