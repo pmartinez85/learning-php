@@ -12,16 +12,9 @@
 
         <ul>
 
-            <li><?php
+            <li><?= $person[married] ? "casat" : "Solter" ; ?>
 
-                if ($person['married'] == true) {
-                echo "Casat";
 
-                }else {
-                    echo "solter";
-                    }
-
-                ?>
 
 
 

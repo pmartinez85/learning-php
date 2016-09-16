@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c854b44-4fd6-4e18-ab1e-811633a8b28c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.template.php" afterPath="$PROJECT_DIR$/index.template.php" />
     </list>
     <ignored path="php-learning.iws" />
@@ -37,8 +36,8 @@
       <file leaf-file-name="index.template.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="300">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,8 +52,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/indextemplate.php" />
-        <option value="$PROJECT_DIR$/index.template.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/index.template.php" />
       </list>
     </option>
   </component>
@@ -166,12 +165,12 @@
       <option name="presentableId" value="Default" />
       <updated>1473969480291</updated>
       <workItem from="1473969481653" duration="239000" />
-      <workItem from="1474033415685" duration="4291000" />
+      <workItem from="1474033415685" duration="4413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4530000" />
+    <option name="totallyTimeSpent" value="4652000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="52" width="688" height="848" extended-state="4" />
@@ -238,8 +237,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
