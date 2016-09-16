@@ -1,36 +1,15 @@
 <?php
 
-$noms = [
-    'Pedro ',
-    'Xavi ',
-    'Sergi '
-];
+copy('a', 'b');
 
-// ARRAYS ASSOCIATIUS
+function hello(){
+    echo "Hello World";
 
-$person = [
-    'name' => 'Pedro',
-    'sn1' => 'Martínez',
-    'sn2' => 'Segura',
-    'edat' => '30',
-    'married' => true
-];
+}
 
-//
-//die('Xivato');
-//echo "NO S'EXECUTA MAI";
-//dd();
-//
-//
-//
-//var_dump($person);
+hello();
 
-echo $noms[0];
 
-echo $person['sn1'];
-
-$married = true;
-$married = false;
 
 
 

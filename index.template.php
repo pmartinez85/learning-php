@@ -12,7 +12,7 @@
 
         <ul>
 
-            <li><?= $person[married] ? "casat" : "Solter" ; ?>
+            <li><?= hello(); ?>
 
 
 
