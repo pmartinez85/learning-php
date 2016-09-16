@@ -10,12 +10,21 @@
 <body>
     <h1>
 
-        <ul>
+<!--        <ul>-->
+<!---->
+<!--            --><?php //foreach ($noms as $nom) : ?>
+<!--           <li>--><?//= $nom?><!--</li>-->
+<!--            --><?php //endforeach; ?>
+<!--        </ul>-->
 
-            <?php foreach ($noms as $nom) : ?>
-           <li><?= $nom?></li>
+        <ul>
+            <?php foreach ($person as $feature => $featureValue) : ?>
+            <li><strong><?= $feature ?></strong></li>
             <?php endforeach; ?>
+
         </ul>
+
+
 
     </h1>
 </body>

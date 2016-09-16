@@ -13,7 +13,7 @@ $person = [
     'sn1' => 'Martínez',
     'sn2' => 'Segura',
     'edat' => '30',
-    'married' => yes
+    'married' => true
 ];
 
 //
@@ -24,6 +24,9 @@ $person = [
 //
 //
 //var_dump($person);
+
+echo $names[0];
+echo $person['sn1'];
 
 
 require 'index.template.php';
