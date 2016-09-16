@@ -9,13 +9,12 @@
 </head>
 <body>
     <h1>
-        <ul>
-        <?php
 
-        foreach ($noms as $x){
-            echo "<li>$x</li</li>";
-        }
-        ?>
+        <ul>
+
+            <?php foreach ($noms as $nom) : ?>
+           <li><?= $nom?></li>
+            <?php endforeach; ?>
         </ul>
 
     </h1>
