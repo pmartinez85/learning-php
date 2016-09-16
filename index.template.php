@@ -12,7 +12,7 @@
 
         <ul>
 
-            <li><?= hello('Pedro' , 'Martínez'); ?>
+            <li><?= printArgs('1','2'); ?>
 
 
 
