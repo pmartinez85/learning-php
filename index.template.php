@@ -8,24 +8,11 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>
 
-        <ul>
 
-            <li><?= printArgs('1','2'); ?>
+            <?= sum(1,2,3); ?>
 
 
 
-
-
-
-            </li>
-
-
-        </ul>
-
-
-
-    </h1>
 </body>
 </html>
