@@ -1,21 +1,24 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <h1>
-<!--        --><?php
-//            $greeting = "Hola ";
-//            $name = $_GET['nom'];
-//            echo $greeting . $name .'!';
-//        ?>
-<!--            --><?//= 'Hello ' . htmlspecialchars($_GET['nom']);?>
-        <?= $gretting;?>
-    </h1>
-</body>
-</html>
+<?php
+
+
+//$greeting = "Hola" . $_GET['nom'] . "!";
+//require 'index.php';
+
+
+//$nom = array();
+
+$noms = [
+    'Sergi',
+    'Xavi',
+    'Pedro'
+];
+
+$array = ['Sergi', 'Xavi', 'Pedro'];   //Intentarem no fer aquest format si es un array llarg
+
+echo "<ul>";
+foreach ($noms as $x){
+
+    echo "<li>$x</li</li>";
+
+}
+echo "</ul>";
