@@ -1,9 +1,9 @@
 <?php
 
 $noms = [
-    'Sergi',
-    'Xavi',
-    'Pedro'
+    'Pedro ',
+    'Xavi ',
+    'Sergi '
 ];
 
 // ARRAYS ASSOCIATIUS
@@ -25,8 +25,13 @@ $person = [
 //
 //var_dump($person);
 
-echo $names[0];
+echo $noms[0];
+
 echo $person['sn1'];
+
+$married = true;
+$married = false;
+
 
 
 require 'index.template.php';

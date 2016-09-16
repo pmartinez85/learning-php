@@ -10,17 +10,24 @@
 <body>
     <h1>
 
-<!--        <ul>-->
-<!---->
-<!--            --><?php //foreach ($noms as $nom) : ?>
-<!--           <li>--><?//= $nom?><!--</li>-->
-<!--            --><?php //endforeach; ?>
-<!--        </ul>-->
-
         <ul>
-            <?php foreach ($person as $feature => $featureValue) : ?>
-            <li><strong><?= $feature ?></strong></li>
-            <?php endforeach; ?>
+
+            <li><?php
+
+                if ($person['married'] == true) {
+                echo "Casat";
+
+                }else {
+                    echo "solter";
+                    }
+
+                ?>
+
+
+
+
+            </li>
+
 
         </ul>
 
