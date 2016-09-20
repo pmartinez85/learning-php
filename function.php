@@ -32,9 +32,9 @@ function connect()
 
 }
 
-function allTasks($pdo)
+function all($pdo, $table)
 {
-    $query = $pdo->prepare('select * from todos');
+    $query = $pdo->prepare("select * from {$table}");
 
     $query->execute();
 

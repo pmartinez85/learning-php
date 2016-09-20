@@ -8,9 +8,6 @@
  */
 class Connection {
 
-//    public  function make(){
-//
-//    }
 
     public static function make(){
         try {
