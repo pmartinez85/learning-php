@@ -12,8 +12,12 @@ require 'Task.php';
 
 
 $task = new Task("Aprendre PHP",false);
-var_dump($task ->description);
-var_dump($task -> completed);
 
 var_dump($task);
+
+$task->complete();
+$task->completed = true;
+
+
+
 
