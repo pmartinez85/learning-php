@@ -6,10 +6,12 @@
  * Date: 20/09/16
  * Time: 21:33
  */
+
+
 class QueryBuilder
 {
 
-    function all($pdo, $table)
+    function all(PDO $pdo, $table)
     {
         $query = $pdo->prepare("select * from {$table}");
 
