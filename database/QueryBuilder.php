@@ -7,13 +7,28 @@
  * Time: 21:33
  */
 
+// Type hiting
 
-class QueryBuilder
-{
+class QueryBuilder {
 
-    function all(PDO $pdo, $table)
+    // Collaborators o dependències
+    // Dependency Injection
+    public $pdo;
+
+    /**
+     * QueryBuilder constructor.
+     * @param $pdo
+     */
+
+    //Fem un constructor en alt+insert i li afegim PDO.
+    public function __construct(PDO $pdo)
     {
-        $query = $pdo->prepare("select * from {$table}");
+        $this->pdo = $pdo;
+    }
+
+    function all( $table)
+    {
+        $query = $this->pdo->prepare("select * from {$table}");
 
         $query->execute();
 
@@ -21,7 +36,6 @@ class QueryBuilder
         return   $tasks = $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Task::class);
 
     }
-
 
 
 }
