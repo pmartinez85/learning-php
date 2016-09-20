@@ -13,27 +13,24 @@ class Task{
     }
 
 
-    public function complete() {
+    public function getCompleted() {
 
-         $this->completed = true;
+         return $this->completed;
     }
 
-    public function setDescription($description) {
+    public function description($description) {
 
         $this->description = $description;
 
     }
 
 
-    public function getCompleted()
-    {
-        return $this->completed;
-    }
-
-
     public function Completed($completed=null)
     {
-        if ($completed == null)
+        if ($completed == null){
+            return $completed;
+        }
+        $this->completed = $completed;
     }
 
 
