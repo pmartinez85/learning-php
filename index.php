@@ -5,14 +5,12 @@ require 'function.php';
 
 require 'Task.php';
 
-//PDO: Php Data Object library/biblioteca
-
-$pdo = connect();
-
+$pdo = Connection::make();
 
 $tasks = allTasks($pdo);
 
 require 'index.template.php';
+
 
 
 
