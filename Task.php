@@ -12,7 +12,7 @@ class Task{
 
     }
 
-    public function complete(){
+    public function completed(){
     $this->completed = true;
 
     }
