@@ -12,7 +12,10 @@ class Task{
 
     }
 
+    public function complete(){
+    $this->completed = true;
 
+    }
     public function getCompleted() {
 
          return $this->completed;
@@ -22,15 +25,6 @@ class Task{
 
         $this->description = $description;
 
-    }
-
-
-    public function Completed($completed=null)
-    {
-        if ($completed == null){
-            return $completed;
-        }
-        $this->completed = $completed;
     }
 
 
