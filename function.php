@@ -16,9 +16,7 @@ function printArgs($args) {
 
 function sum() {
 
-    $numbers = func_get_arg();
-
-    return array_sum($numbers);
+    return array_sum(func_get_arg());
 
 }
 
