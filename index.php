@@ -15,13 +15,17 @@ try {
 }
 
 catch (PDOexception $e){
-    die("ha hagut un error durant la connexió" . $e->getMessage());
+    die("Hi ha hagut un error durant la connexió" . $e->getMessage());
 }
 
 
 $query = $pdo->prepare('select * from todos');
+
 $query->execute();
-var_dump($query->fetchAll());
+
+//var_dump ($query->fetchAll(PDO::FETCH_OBJ));
+
+var_dump ($query->fetchAll(PDO::FETCH_CLASS,Task::class));
 //require 'index.template.php';
 
 

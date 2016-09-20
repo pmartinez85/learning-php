@@ -2,9 +2,9 @@
 
 class Task{
 
-    protected $description;
+    public $description;
 
-    private $completed;
+    public $completed;
 
     public function  __construct($description, $completed) {
         $this->description = $description;
