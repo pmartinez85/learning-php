@@ -25,17 +25,9 @@ $query->execute();
 
 //var_dump ($query->fetchAll(PDO::FETCH_OBJ));
 
-$results = $query->fetchAll(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE,Task::class);
-$task1 = $results[0];
+$tasks = $query->fetchAll(PDO::FETCH_CLASS|PDO::FETCH_PROPS_LATE,Task::class);
 
-var_dump($task1->id);
-var_dump($results[0])->id;
-
-
-var_dump($task1->description);
-var_dump($task1->completed);
-
-//require 'index.template.php';
+require 'index.template.php';
 
 
 

@@ -9,8 +9,19 @@
 </head>
 <body>
 
+        <ul>
+            <?php foreach ($tasks as $task) : ?>
+            <li>
+                <?php if ($task->completed) : ?>
+                    <?= $task->description ?>
+                <?php else:?>
+                    <strike><?= $task->description ?></strike>
+                <?php endif;?>
+            </li>
+            <?php endforeach;?>
 
-            <?= sum(1,2,3,100,546) ?>
+
+        </ul>
 
 
 
