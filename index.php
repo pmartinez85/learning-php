@@ -16,7 +16,7 @@ $task = new Task("Aprendre PHP",false);
 var_dump($task);
 
 $task->complete();
-$task->completed = true;
+echo $task->completed;
 
 
 
