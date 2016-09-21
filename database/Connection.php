@@ -7,7 +7,7 @@
 class Connection {
 
 
-    public static function make($config){
+    public static function make($config, $message){
         try {
             $pdo = new PDO("".
                 $config['dbtype'].  ':host=' .
