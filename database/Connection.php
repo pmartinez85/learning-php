@@ -10,12 +10,11 @@ class Connection {
     public static function make($config){
         try {
             $pdo = new PDO("".
-                $config['dbtype'].  " :host=" .
-                $config['dbhost'].  " ;dbname=".
-                $config['dbname']."",
+                $config['dbtype'].  ':host=' .
+                $config['dbhost'].  ';dbname='.
+                $config['dbname'],
                 $config['username'],
-                $config['password']
-            );
+                $config['password']);
             return $pdo;
         } catch (PDOexception $e) {
             die("ERROR" . $e->getMessage());
