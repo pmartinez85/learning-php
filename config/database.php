@@ -1,10 +1,10 @@
 <?php
 
 
-$config = [
-    'type'  =>  'mysql',
-    'name'  =>   'prova',
+return [
+    'dbtype'  =>  'mysql',
+    'dbname'  =>   'prova',
     'username'  => 'root',
     'password'  =>  '',
-    'host'  =>  '127.0.0.1'
+    'dbhost'  =>  '127.0.0.1'
 ];

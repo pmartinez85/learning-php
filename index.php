@@ -7,14 +7,7 @@ require 'Task.php';
 
 require 'database/Connection.php';
 require 'database/QueryBuilder.php';
-
-$config = [
-    'dbtype'  =>  'mysql',
-    'dbname'  =>   'prova',
-    'username'  => 'root',
-    'password'  =>  '',
-    'dbhost'  =>  '127.0.0.1'
-];
+$config = require 'config/database.php';
 
 $pdo = Connection::make($config);
 
