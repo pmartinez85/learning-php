@@ -8,6 +8,7 @@ require 'Task.php';
 require 'database/Connection.php';
 require 'database/QueryBuilder.php';
 $config = require 'config/database.php';
+$message = require 'config/database.php';
 
 $pdo = Connection::make($config);
 

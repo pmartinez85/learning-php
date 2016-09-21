@@ -17,7 +17,7 @@ class Connection {
                 $config['password']);
             return $pdo;
         } catch (PDOexception $e) {
-            die("ERROR" . $e->getMessage());
+            die($message['Databaseerrorconnection'] . $e->getMessage());
         }
     }
 
