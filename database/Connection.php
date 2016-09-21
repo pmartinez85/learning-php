@@ -1,21 +1,24 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: pedro
- * Date: 20/09/16
- * Time: 21:24
- */
+
+// $pdo = new PDO('mysql:host=127.0.0.1;dbname=prova', 'root', '');
+
+
 class Connection {
 
 
-    public static function make(){
+    public static function make($config){
         try {
-
-            $pdo = new PDO('mysql:host=127.0.0.1;dbname=prova', 'root', '');
+            $pdo = new PDO("".
+                $config['dbtype'].  " :host=" .
+                $config['dbhost'].  " ;dbname=".
+                $config['dbname']."",
+                $config['username'],
+                $config['password']
+            );
             return $pdo;
         } catch (PDOexception $e) {
-            die("Hi ha hagut un error durant la connexió" . $e->getMessage());
+            die("ERROR" . $e->getMessage());
         }
     }
 
