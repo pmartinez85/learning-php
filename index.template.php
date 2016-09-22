@@ -10,7 +10,7 @@
 <body>
 
         <ul>
-            <?php foreach ($tasks as $task) : ?>
+            <?php foreach ($pers as $task) : ?>
             <li>
                 <?php if ($task->completed) : ?>
                     <?= $task->description ?>
