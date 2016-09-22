@@ -12,7 +12,7 @@
 <ul>
     <?php foreach ($persons as $person) : ?>
         <li>
-                <?= $person->Lastname ?>
+                <?= $person->LastName ?>
 
         </li>
     <?php endforeach;?>
