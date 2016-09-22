@@ -1,12 +1,12 @@
 <?php
 
-require 'function.php';
+require 'Core/function.php';
 
-require 'Task.php';
+require 'Models/Task.php';
 
-require 'database/QueryBuilder.php';
+require 'Core/database/QueryBuilder.php';
 
-require 'database/Connection.php';
+require 'Core/database/Connection.php';
 
 require 'persons.php';
 

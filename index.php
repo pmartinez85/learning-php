@@ -1,6 +1,6 @@
 <?php
 
-require "core/bootstrap.php";
+require "Core/bootstrap.php";
 
 $tasks = $query->all('todos');
 
