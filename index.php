@@ -4,19 +4,10 @@ require "Core/bootstrap.php";
 
 //$tasks = $query->all('todos');
 
+require 'routes.php';
 
 
-$routes = [
-    ''          =>  'controllers/persons.php',
-    'persons'   =>  'controllers/persons',
-    'about'     =>  'controllers/about',
-    'contact'   =>  'controllers/contact',
-
-
-
-];
-
-$uri = (trim($_SERVER['REQUEST_URI'],'/'));
+$uri = trim($_SERVER['REQUEST_URI'],'/');
 
 if (array_key_exists($uri,$routes) ) {
     require $routes[$uri];
