@@ -8,20 +8,17 @@
     <title>Document</title>
 </head>
 <body>
-    <?php require 'menu.php' ?>;
+    <?php require 'menu.php' ?>
 
-<ul>
-    <?php foreach ($persons as $person) : ?>
-        <li>
+    <ul>
+        <?php foreach ($persons as $person) : ?>
+            <li>
                 <?= $person->LastName ?>
 
-        </li>
-    <?php endforeach;?>
+            </li>
+        <?php endforeach;?>
 
 
-</ul>
-
-
-
+    </ul>
 </body>
 </html>
