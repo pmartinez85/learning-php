@@ -1,3 +1,3 @@
 <?php
 
-require "vistes/addperson.template.php";
+require 'vistes/addperson.template.php';
