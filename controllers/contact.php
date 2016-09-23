@@ -5,10 +5,10 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Contact</title>
 </head>
 <body>
-<?php require '../vistes/menu.php' ?>
+<?php require 'vistes/menu.php' ?>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores blanditiis consectetur cupiditate et eveniet, fugiat in inventore minima, nesciunt odio quia sint ullam. Aliquam et in praesentium quod sit.
 </body>
