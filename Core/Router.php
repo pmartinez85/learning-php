@@ -10,11 +10,18 @@ class Router
 
     }
 
+    public static function load($routes)
+    {
+        $router = new static;
+        $router->routes = $routes;
+        return $router;
+    }
+
 
     public function direct($uri){
 
         if (array_key_exists($uri,$this->routes) ) {
-            require $this->routes[$uri];
+            return $this->routes[$uri];
         } else {
             throw new Exception("No s'ha trobat la pagina");
         }

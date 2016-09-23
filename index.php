@@ -12,7 +12,9 @@ require 'Core/Router.php';
 
 $routes = require 'routes.php';
 
-$uri = Request::uri();
-$router = new Router;
-$router ->define($router);
-$routes ->direct($uri);
+//$uri = Request::uri();
+//$router = new Router;
+//$router ->define($router);
+//require $routes->direct($uri);
+
+require Router::load('routes.php')->direct(Request::uri());
