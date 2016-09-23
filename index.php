@@ -1,10 +1,8 @@
 <?php
 
 require "Core/bootstrap.php";
-
-require 'routes.php';
-
 require 'Core/Request.php';
+require 'Core/Router.php';
 
 
 //HTTP -> REQUEST -> Response
@@ -12,15 +10,9 @@ require 'Core/Request.php';
 //$request = new Request;
 //$uri = $request->uri();
 
+$routes = require 'routes.php';
+
 $uri = Request::uri();
-
-Route::
-
-
-
-
-
-
-
-
-
+$router = new Router;
+$router ->define($router);
+$routes ->direct($uri);
