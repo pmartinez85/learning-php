@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-<?php require 'vistes/menu.php' ?>
+<?php require '../vistes/menu.php' ?>
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad asperiores blanditiis consectetur cupiditate et eveniet, fugiat in inventore minima, nesciunt odio quia sint ullam. Aliquam et in praesentium quod sit.
 </body>
