@@ -2,8 +2,6 @@
 
 require "Core/bootstrap.php";
 
-//$tasks = $query->all('todos');
-
 require 'routes.php';
 
 
