@@ -1,4 +1,4 @@
 <?php
 return [
-    'Databaseerrorconnection'   => 'Ha succeït un errror'
+    'DatabaseErrorConnection'   => 'Ha succeït un errror'
 ];

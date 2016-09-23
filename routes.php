@@ -1,6 +1,5 @@
 <?php
 
-
 $routes = [
     ''          =>  'controllers/tasks.php',
     'persons'   =>  'controllers/persons.php',

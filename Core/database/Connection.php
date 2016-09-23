@@ -5,17 +5,17 @@
 class Connection {
 
 
-    public static function make($config, $message){
+    public static function make($config,$message){
         try {
-            $pdo = new PDO("".
-                $config['dbtype'].  ':host=' .
-                $config['dbhost'].  ';dbname='.
+            $pdo = new PDO(
+                $config['dbtype'] .  ':host=' .
+                $config['dbhost'] .  ';dbname=' .
                 $config['dbname'],
                 $config['username'],
                 $config['password']);
             return $pdo;
         } catch (PDOexception $e) {
-            die($message['Databaseerrorconnection'] . $e->getMessage());
+            die($message['DatabaseErrorConnection'] . $e->getMessage());
         }
     }
 

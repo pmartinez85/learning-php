@@ -33,7 +33,8 @@ class QueryBuilder {
         $query->execute();
 
 
-        return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Task::class);
+        return $query->fetchAll(
+		PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, 			Task::class);
 
     }
 
