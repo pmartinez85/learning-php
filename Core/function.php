@@ -23,6 +23,12 @@ function sum() {
     return array_sum(func_get_arg());
 
 }
+
+
+
+
+
+
 //
 //function connect()
 //{
