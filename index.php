@@ -4,7 +4,7 @@ require "Core/bootstrap.php";
 
 require 'routes.php';
 
-require 'Core/Models/function.php';
+require 'Core/Request.php';
 
 
 //HTTP -> REQUEST -> Response
@@ -14,7 +14,11 @@ require 'Core/Models/function.php';
 
 $uri = Request::uri();
 
-
+if (array_key_exists($uri,$routes) ) {
+require $routes[$uri];
+} else {
+    throw new Exception("No s'ha trobat la pagina");
+}
 
 
 
