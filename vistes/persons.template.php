@@ -9,8 +9,8 @@
 </head>
 <body>
 
-<?php require 'vistes/partials/header.php' ?>
-//VIDEO 17 DE LA SERIE
+<?php //require 'vistes/partials/header.php' ?>
+<!--//VIDEO 17 DE LA SERIE-->
 //FICAR TOTES LES VISTES SOLS EN UNA, DE MANERA QUE SOLS HI HAGI UNA AMB html
     <?php require 'menu.php' ?>
 
