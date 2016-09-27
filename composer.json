@@ -1,0 +1,20 @@
+{
+    "name": "pmartinez/php-learning",
+    "description": "Modificacio projecte php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pedro Martinez",
+            "email": "pmartinez1085@gmail.com"
+        }
+    ],
+    "require": {},
+
+    "autoload" : {
+        "psr-4" : {
+            "Pmartinez85\\" : "src/"
+        },
+        "files" : ["core/function.php"]
+    }
+}

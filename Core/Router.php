@@ -1,5 +1,7 @@
 <?php
 
+namespace Pmartinez85;
+
 class Router
 {
     protected $routes = [];

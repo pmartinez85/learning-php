@@ -1,5 +1,6 @@
 <?php
 
+namespace Pmartinez85;
 
 class Request
 {

@@ -1,13 +1,6 @@
 <?php
 
-/**
- * Created by PhpStorm.
- * User: pedro
- * Date: 20/09/16
- * Time: 21:33
- */
-
-// Type hiting
+namespace Pmartinez85;
 
 class QueryBuilder {
 
