@@ -1,6 +1,6 @@
 <?php
 
-$persons = $query->all('Persons');
+$persons = $query->all("Persons");
 
 
-require 'vistes/persons.template.php';
+require __DIR__.'/../views/persons.template.php';

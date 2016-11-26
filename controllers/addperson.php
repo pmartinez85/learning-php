@@ -1,3 +1,2 @@
 <?php
-
-require 'vistes/addperson.template.php';
+require __DIR__.'/../views/addperson.template.php';

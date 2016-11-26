@@ -8,21 +8,4 @@
     <title>Document</title>
 </head>
 <body>
-
 <?php require 'menu.php' ?>
-
-<form method="POST" action="/names">
-    <label for="forName">Name:</label>
-   <input
-          type="text"
-          name="name"
-          placeholder="Put your name aquuiii"/>
-
-    <input type="submit" value="Enviar">
-
-</form>
-
-
-
-</body>
-</html>
