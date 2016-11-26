@@ -1,6 +1,6 @@
 <?php
 
-require 'Core/bootstrap.php';
+require 'core/bootstrap.php';
 //require 'Core/Request.php';
 //require 'Core/Router.php';
 

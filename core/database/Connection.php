@@ -1,6 +1,9 @@
 <?php
 
-namespace Pmartinez85;
+namespace pmartinez85\Myframework\core\database;
+
+use PDO;
+use PDOException;
 
 class Connection {
 
@@ -12,11 +15,11 @@ class Connection {
                 $config['dbhost'] .  ';dbname=' .
                 $config['dbname'],
                 $config['username'],
-                $config['password']);
+                $config['password']
+            );
             return $pdo;
         } catch (PDOexception $e) {
             die($message['DatabaseErrorConnection'] . $e->getMessage());
         }
     }
-
 }

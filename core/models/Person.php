@@ -1,10 +1,20 @@
 <?php
 
+namespace pmartinez85\Myframework\core\models;
+
 class Person {
 
     protected $name;
     protected $midlename;
     protected $lastname;
+
+    public function __construct($name, $midlename, $lastname)
+    {
+        $this->name = $name;
+        $this->midlename = $midlename;
+        $this->lastname = $lastname;
+    }
+
 
     /**
      * @return mixed
@@ -53,19 +63,5 @@ class Person {
     {
         $this->lastname = $lastname;
     }
-
-    /**
-     * Person constructor.
-     * @param $name
-     * @param $midlename
-     * @param $lastname
-     */
-    public function __construct($name, $midlename, $lastname)
-    {
-        $this->name = $name;
-        $this->midlename = $midlename;
-        $this->lastname = $lastname;
-    }
-
 
 }

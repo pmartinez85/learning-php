@@ -1,6 +1,6 @@
 <?php
 
-namespace Pmartinez85;
+namespace pmartinez85\Myframework\core\models;
 
 class Task{
 
@@ -14,7 +14,7 @@ class Task{
 
     }
 
-    public function completed(){
+    public function complete(){
     $this->completed = true;
 
     }
@@ -27,6 +27,10 @@ class Task{
 
         $this->description = $description;
 
+    }
+
+    public function isComplete(){
+        return $this->completed;
     }
 
 

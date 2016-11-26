@@ -13,7 +13,7 @@
 
     "autoload" : {
         "psr-4" : {
-            "Pmartinez85\\" : "src/"
+            "pmartinez85\\" : "src/"
         },
         "files" : ["core/function.php"]
     }

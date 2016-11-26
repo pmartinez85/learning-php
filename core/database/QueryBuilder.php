@@ -1,6 +1,9 @@
 <?php
 
-namespace Pmartinez85;
+namespace pmartinez85\Myframework\core\models\Task;
+
+use PDO;
+use Pmartinez85\Task;
 
 class QueryBuilder {
 
@@ -19,7 +22,7 @@ class QueryBuilder {
         $this->pdo = $pdo;
     }
 
-    function all( $table)
+    function all($table)
     {
         $query = $this->pdo->prepare("select * from {$table}");
 
@@ -29,6 +32,12 @@ class QueryBuilder {
         return $query->fetchAll(
 		PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Task::class);
 
+    }
+
+    function addCamp ($table,$camp,$valor){
+        $query = $this->pdo->prepare("INSERT INTO {$table} ({$camp}) VALUES ('{$valor}')");
+        $query->execute();
+        return $query->fetchAll(PDO::FETCH_CLASS | PDO::FETCH_PROPS_LATE, Task::class);
     }
 
 
