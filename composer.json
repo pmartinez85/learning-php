@@ -10,11 +10,12 @@
         }
     ],
     "require": {},
-
-    "autoload" : {
-        "psr-4" : {
-            "pmartinez85\\" : "src/"
+    "autoload": {
+        "psr-4": {
+            "pmartinez85\\": "src/"
         },
-        "files" : ["core/function.php"]
+        "files": [
+            "core/function.php"
+        ]
     }
 }
