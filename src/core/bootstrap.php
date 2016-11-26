@@ -1,6 +1,6 @@
 <?php
 
-require "../vendor/autoload.php";
+require "../../vendor/autoload.php";
 use pmartinez85\Myframework\core\database\QueryBuilder;
 use pmartinez85\Myframework\core\database\Connection;
 
