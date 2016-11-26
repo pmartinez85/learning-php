@@ -1,16 +1,10 @@
 <?php
 
-require 'function.php';
-
-//require 'Models/Task.php';
-//
-//require 'database/QueryBuilder.php';
-//
-//require 'database/Connection.php';
+require "../vendor/autoload.php";
+use pmartinez85\Myframework\core\database\QueryBuilder;
+use pmartinez85\Myframework\core\database\Connection;
 
 $config = require 'config/database.php';
 $message = require 'config/message.php';
-
-$pdo = Pmartinez85\Connection::make($config,$message);
-
-$query = new Pmartinez85\QueryBuilder($pdo);
+$pdo = Connection::make($config,$message);
+$query = new QueryBuilder\QueryBuilder($pdo);

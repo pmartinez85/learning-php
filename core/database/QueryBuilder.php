@@ -1,9 +1,9 @@
 <?php
 
-namespace pmartinez85\Myframework\core\models\Task;
+namespace pmartinez85\Myframework\core\database\QueryBuilder;
 
 use PDO;
-use Pmartinez85\Task;
+use pmartinez85\Myframework\core\models\Task;
 
 class QueryBuilder {
 
