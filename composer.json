@@ -9,7 +9,7 @@
             "email": "pmartinez1085@gmail.com"
         }
     ],
-    "require": {},
+    "require": {"pmartinez/php-learning": "1.0"},
     "autoload": {
         "psr-4": {
             "pmartinez85\\Myframework\\": "src/"
