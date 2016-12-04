@@ -12,8 +12,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "pmartinez85\\": "src/"
-        },
+            "pmartinez85\\Myframework\\": "src/"
+       },
         "files": [
             "core/function.php"
         ]
